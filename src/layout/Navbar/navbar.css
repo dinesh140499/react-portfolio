@@ -1,5 +1,5 @@
 nav {
-  background-color: #fff;
+  background-color: #070322;
   padding: 1rem 2rem;
   font-family: var(--font-bold);
   font-size: 1.5rem;
@@ -10,6 +10,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 
   > a {
     text-transform: lowercase;
@@ -60,14 +61,14 @@ nav {
               left: 0;
               height: 0.2rem;
               width: 0%;
-              background-color: var(--grey);
+              background-color: white;
               z-index: -1;
               transition: width 0.3s ease;
             }
           }
 
           > p {
-            color: #000;
+            color: #ffffff;
             font-size: 1.2rem;
             display: none;
             align-items: center;
@@ -77,7 +78,7 @@ nav {
             svg {
               width: 1rem;
               height: 1rem;
-              color: var(--grey);
+              color: white;
             }
 
             span {
@@ -88,7 +89,7 @@ nav {
         }
 
         &:hover {
-          color: var(--grey);
+          color: white;
 
           > div > a::before {
             width: 100%;
@@ -99,7 +100,7 @@ nav {
           }
         }
         &:active {
-          color: var(--grey);
+          color: white;
 
           > div > a::before {
             width: 100%;
@@ -120,7 +121,8 @@ nav {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         position: relative;
         z-index: 1;
-        opacity: 0.3;
+        /* opacity: 0.3; */
+        color: white;
       }
 
       > div {
@@ -130,7 +132,7 @@ nav {
         width: 100%;
         font-size: 0.8rem;
         font-weight: 300;
-        color: var(--grey);
+        color: white;
         max-width: 53%;
         margin: 0 auto;
         position: absolute;
@@ -139,7 +141,7 @@ nav {
         z-index: 2;
 
         & > p {
-          color: rgb(0, 0, 0);
+          color: white;
           font-family: var(--font-bold);
           letter-spacing: 0.1rem;
           font-size: 0.9rem;
@@ -148,7 +150,7 @@ nav {
         & > span {
           flex: 2;
           height: 1px;
-          background-color: rgb(0, 0, 0);
+          background-color: white;
           margin: 0 0.5rem;
         }
       }

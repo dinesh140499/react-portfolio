@@ -23,7 +23,7 @@ const Navbar = () => {
               key={item.name}
               onMouseEnter={() => setCurrentPage(navItems.indexOf(item) + 1)}
             >
-              <div>
+              <div className="text-white">
                 <a href={item.link}>{item.name}</a>
                 <p>
                   <span>explore</span>
@@ -33,7 +33,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div>
+        <div >
           <h2>{"0" + currentPage}</h2>
           <div>
             <p>{"0" + currentPage}</p>

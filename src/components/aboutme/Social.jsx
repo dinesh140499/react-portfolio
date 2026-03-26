@@ -40,12 +40,12 @@ const Social = () => {
           <CarouselItem key={index} className="basis-auto">
             <div className="p-1 ">
               <Card className="bg-transparent ring-0 py-0">
-                <CardContent className="flex aspect-square items-center justify-center px-3 py-0">
+                <CardContent className="flex aspect-square items-center justify-center px-3 py-0 text-white">
                   <a
                     href={social.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex opacity-30 items-center justify-center border-gray-500 border-2 rounded-full p-3 hover:opacity-100 hover:scale-110 transition-all duration-300 cursor-pointer"
+                    className="flex opacity-30 items-center justify-center border-gray-500 text-white border-2 rounded-full p-3 hover:opacity-100 hover:scale-110 transition-all duration-300 cursor-pointer"
                   >
                     {social.icon}
                   </a>

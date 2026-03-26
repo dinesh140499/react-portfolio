@@ -52,7 +52,7 @@ a {
   --font-italic: "Helvetica Italic", sans-serif;
   --font-bold: "Helvetica Bold", sans-serif;
 
-  --bg-color: #f9f8f8;
+  --bg-color: #1a143d;
   --grey: #2a2b2b;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -180,4 +180,12 @@ body {
   html {
     @apply font-sans;
   }
+}
+
+/* Jugnu */
+
+.jugnu-bg {
+  position: relative;
+  background: #0d0b1e;
+  overflow: hidden;
 }
