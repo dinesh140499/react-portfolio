@@ -1,9 +1,9 @@
 import useJugnu from "@/customHook/useJugnu";
-import profile from "../../assets/images/avatar.png";
+import profile from "../../../assets/images/avatar.png";
 import Social from "./Social";
 import { useRef } from "react";
 
-const AboutMe = () => {
+const Overview = () => {
   const canvasRef = useRef(null);
   useJugnu(canvasRef);
   return (
@@ -41,4 +41,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Overview;
